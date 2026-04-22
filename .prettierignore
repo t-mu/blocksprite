@@ -13,10 +13,10 @@ bun.lockb
 # Design reference (prototype, not our code)
 /design_handoff_blocksprite/
 
-# Orchestration tooling
+# Agent/skill prompts — tracked in git, but authored formatting preserved
 /.claude/
 /.codex/
+
+# Orchestration runtime state (not tracked; here for prettier too)
 /.orc-state/
 /backlog/
-/.mcp.json
-/orc-state.config.json

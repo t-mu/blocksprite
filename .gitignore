@@ -26,3 +26,6 @@ test-results
 
 # orc-state runtime data
 .orc-state/
+
+# Claude Code per-machine permissions cache
+.claude/settings.local.json

@@ -1,0 +1,11 @@
+{
+	"mcpServers": {
+		"orchestrator": {
+			"command": "/usr/local/bin/node",
+			"args": ["/home/node/.npm-global/lib/node_modules/orc-state/dist/mcp/server.js"],
+			"env": {
+				"ORC_STATE_DIR": "/home/node/workspace/blocksprite/.orc-state"
+			}
+		}
+	}
+}
