@@ -1,42 +1,27 @@
-# sv
+# blocksprite
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A character-map sprite editor for the web. Users draw pixel sprites on
+a grid where each cell holds an ASCII character mapped to a color via
+a palette — producing compact string arrays like
+`["__kk__", "_kRk_", ...]` that round-trip via import.
 
-## Creating a project
+> **Status:** under active construction. See
+> [`design_handoff_blocksprite/`](./design_handoff_blocksprite/) for
+> the full intended feature set.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Live: https://t-mu.github.io/blocksprite
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Getting started
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --types ts --no-install _scaffold
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Requirements: Node 24 + pnpm.
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm install
+pnpm dev
 ```
 
-## Building
+Then open http://localhost:5173.
 
-To create a production version of your app:
+## License
 
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+ISC
