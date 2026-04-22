@@ -1,0 +1,22 @@
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+bun.lockb
+
+# Miscellaneous
+/static/
+/build/
+/.svelte-kit/
+
+# Design reference (prototype, not our code)
+/design_handoff_blocksprite/
+
+# Orchestration tooling
+/.claude/
+/.codex/
+/.orc-state/
+/backlog/
+/.mcp.json
+/orc-state.config.json
