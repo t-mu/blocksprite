@@ -6,16 +6,16 @@ const dev = process.env.NODE_ENV === 'development';
 const config = {
 	compilerOptions: {
 		// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
-		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
+		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true),
 	},
 	kit: {
 		adapter: adapter({
-			fallback: 'index.html'
+			fallback: 'index.html',
 		}),
 		paths: {
-			base: dev ? '' : '/blocksprite'
-		}
-	}
+			base: dev ? '' : '/blocksprite',
+		},
+	},
 };
 
 export default config;
