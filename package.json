@@ -22,6 +22,7 @@
 	"license": "ISC",
 	"author": "Teemu Mäntyharju",
 	"type": "module",
+	"packageManager": "pnpm@10.33.1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
